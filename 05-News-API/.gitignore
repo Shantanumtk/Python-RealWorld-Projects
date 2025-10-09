@@ -1,0 +1,66 @@
+# ---- Python bytecode / caches ----
+__pycache__/
+*.py[cod]
+*$py.class
+.python_history
+.cache/
+.pytype/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Packaging / build outputs ----
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ---- Test / coverage / tools ----
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.hypothesis/
+
+# ---- Logs / local data ----
+*.log
+*.sqlite3
+*.db
+instance/
+.DS_Store
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Environment & secrets (be careful!) ----
+.env
+.env.*
+*.pem
+*.key
+
+# ---- FastAPI/UVicorn reload artifacts ----
+*.pid
+
+# ---- Terraform (if present) ----
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/crash.log
+**/terraform.tfvars
+**/*.tfplan
+**/override.tf
+**/override.tf.json
+
+# ---- Docker (optional) ----
+*.tar
